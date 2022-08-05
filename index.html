@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="jquery-3.6.0.js"></script>
+
+    <script>
+        $( document ).ready(function() {
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".burger" ).click(function() {        
+                $( ".menu" ).slideToggle( "slow",
+                    function() {
+                        $( ".burger" ).hide();
+                        $( ".cross" ).show();
+                    });
+                });
+            $( ".cross" ).click(function() {
+                $( ".menu" ).slideToggle( "slow",
+                    function() {
+                        $( ".cross" ).hide();
+                        $( ".burger" ).show();
+                    });
+            });
+        });
+    </script>
+
+
+    <!-- <script>
+        $( document ).ready(function() {
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".burger" ).click(function() {        
+                        $( ".menu" ).show();
+                        $( ".burger" ).hide();
+                        $( ".cross" ).show();
+                    });  
+            $( ".cross" ).click(function() {
+                        $( ".menu" ).hide();
+                        $( ".cross" ).hide();
+                        $( ".burger" ).show();
+                    });
+                });
+    </script> -->
+
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+
+
+        <div class="groupe1" id="home">
+
+            <div class="tout mobile">
+                <div class="burger"><img src="img/hamburger-transparent-1.png"></div>
+                <div class="cross" ><img src="img/burger_sortie.png"></div>
+                <img class="logo" src="img/Logo-1.png">
+            </div>
+
+            <div class="tout desktop">
+                <img class="logo-levrai" src="img/Logo-1.png">
+                <div class="lien">
+                    <a href="#home">HOME</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#features">FEATURES</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+
+            <div class="menu">
+                <ul>
+                  <a href="#home"><li>Home</li></a>
+                  <a href="#services"><li>Services</li></a>
+                  <a href="#features"><li>Features</li></a>
+                  <a href="#portfolio"><li>Portfolio</li></a>
+                  <a href="#contact"><li>Contact</li></a>
+                </ul>
+            </div> 
+        
+            <div class="section">
+                <div class="texte1">" I'm looking for the unexpected.</div>
+                <div class="texte2">I'm looking for things I've never seen before."</div>
+            </div>
+            <div class="surmain">
+                <main>
+                    <div class="titre" id="services"><span>Ser</span>vices</div>
+                    <div class="services">
+                        <article>
+                            <img src="img/coffee-1.png">
+                            <div class="sous_titre">COFFEE</div>
+                            <div class="article">
+                                <p>
+                                    Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicate jujubes.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/instant-1.png">
+                            <div class="sous_titre">INSTANT</div>
+                            <div class="article">
+                                <p>
+                                    Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicate njujubes.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/serious-1.png">
+                            <div class="sous_titre">SERIOUS</div>
+                            <div class="article">
+                                <p>
+                                    Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicate jujubes.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/frame-1.png">
+                            <div class="sous_titre">FRAME</div>
+                            <div class="article">
+                                <p>
+                                    Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicate jujubes.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <div class="groupe2">
+            <div class="sousgroup21">
+                <div class="titre2" id="portfolio"><span>Por</span>tfolio</div>
+                <div class="petitmenu">
+                    <div>ALL</div><div>PANORAMAS</div><div>PORTRAITS</div><div>MACRO</div><div>JOURNAL</div>
+                </div>
+            </div>
+            <div class="sousgroup22">
+                <div class="images">
+                    <img src="img/portfolio-img-2.png" alt="panorama">
+                    <img src="img/portfolio-img-3.png" alt="panorama">
+                    <img src="img/portfolio-img-1.png" alt="panorama">
+                    <img src="img/portfolio-img-4.png" alt="panorama">
+                    <img src="img/portfolio-img-5.png" alt="panorama">
+                    <img src="img/portfolio-img-6.png" alt="panorama">
+                    <img src="img/portfolio-img-7.png" alt="panorama">
+                    <img src="img/portfolio-img-8.png" alt="panorama">
+                </div>
+            </div>
+        </div>
+
+        <div class="groupe3">
+            <div class="sousgroup31">
+                <div class="titre3" id="features"><span>Jus</span>t default section</div>
+                <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p>
+                <p class="para">Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat bonbon I love candy canes toffee.</p>
+                <div class="visit">VISIT ME</div>
+            </div>
+            <div class="sousgroup32">
+                <img src="img/video.png" alt="Vidéo">
+            </div>
+        </div>
+
+        <div class="groupe4">
+            <div class="group4">
+                <div class="sousgroup41">
+                    <div class="titre4"><span>Twi</span>tter</div>
+                    <img src="img/twitter_img.png" alt="logo Twitter">
+                </div>
+                <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake</p>
+                <p><span>@cheesecake</span> tootsie roll.</p>
+            </div>
+        </div>
+
+        <div class="surgroup5">
+            <div class="groupe5">
+                <div class="titre5"><span>Wh</span>o is John Doe</div>
+                <div class="group5">
+                    <div class="sousgroup51">
+                        <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p>
+                        <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
+                    </div>
+                    <div class="sousgroup52">
+                        <p>Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.</p>
+                        <div class="reseaux">
+                            <img src="img/Twitter.png" alt="Twitter">
+                            <img src="img/Google.png" alt="Google">
+                            <img src="img/Ballon.png" alt="Ballon">
+                            <img src="img/tasse.png" alt="Tasse">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="surgroup6">
+            <div class="groupe6">
+                <div class="group6">
+                    <div class="sousgroup61">
+                        <div class="titre6"><span>Tes</span>timonials</div>
+                        <img src="img/WSDC.png" alt="guillemets">
+                    </div>
+                    <p>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
+                    <div class="sign">-Walter White</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="surgroup7">
+
+
+            <div class="groupe7_desktop" id="contact">
+                <div class="titre7"><span>Con</span>tact</div>
+                <div class="group7">
+                    <form action="#" methode="post">
+                        <div class="block">
+                            <div class="sousgroup71">
+                                <label for="name"><span>FULL NAME</span></label>
+                                <br>
+                                <input type="text" name="name" id="name">
+                                <br><br>
+                                <label for="mail"><span>EMAIL</span></label>
+                                <br>
+                                <input type="text" name="mail" id="mail">
+                            </div>
+                            <div class="sousgroup72">
+                                <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+                                <p>Linda Newman<br>W325 State Road 123<br>Mondovi, WI(Wisconsin) 98746-54321<br>(715) 946 - 1234</p>
+                            </div>
+                        </div>
+                        <label for="message"><span>MESSAGE</span></label>
+                        <br>
+                        <textarea name="message" id="message" cols="140" rows="10"></textarea>
+                        <br><br>
+                        <input class="bouton" type="submit" value="Message">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="surgroup7_mobile">
+                <div class="titre7"><span>Con</span>tact</div>
+                    <form action="#" methode="post">
+                        <label for="name"><span>FULL NAME</span></label>
+                        <input type="text" name="name" id="name" size="42">
+                        <br>
+                        <label for="mail"><span>EMAIL</span></label>
+                        <input type="text" name="mail" id="mail" size="42">
+                        <br><br>
+                        <label for="message"><span>MESSAGE</span></label>
+                        <textarea name="message" id="message" cols="45" rows="10"></textarea>
+                        <br><br>
+                        <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+                        <p>Linda Newman<br>W325 State Road 123<br>Mondovi, WI(Wisconsin) 98746-54321<br>(715) 946 - 1234</p>
+                        <input class="bouton" type="submit" value="Message">
+                    </form>
+            </div>
+        
+
+
+
+
+            <div class="surgroup8">
+                <div class="groupe8">
+                    <div class="group8">
+                        <div class="sousgroup81">
+                        <a href="#home">HOME</a>|<a href="#services">SERVICES</a>|<a href="#portfolio">PORTFOLIO</a>|<a href="#contact">CONTACT</a>
+                        </div>
+                        <div class="copy">2013 ©</div>
+                    </div>
+                </div>
+            </div>
+
+</body>
+</html>
